@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a6644224-5e7b-46cc-9524-a1a463018745" name="Changes" comment="" />
+    <list default="true" id="a6644224-5e7b-46cc-9524-a1a463018745" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/controlers/user.controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routers/auth.router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routers/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routers/ping.router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routers/user.router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataBase/users.json" beforeDir="false" afterPath="$PROJECT_DIR$/dataBase/users.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/authorisation.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/static/authorisation.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/login.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/static/login.hbs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +25,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/package.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/configs/configs.js" root0="FORCE_HIGHLIGHTING" />
@@ -25,6 +39,7 @@
     <setting file="file://$PROJECT_DIR$/static/login.hbs" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1xCpy7fNEwKsGu66Sk71QT1A2t2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -57,12 +72,26 @@
       <option name="presentableId" value="Default" />
       <updated>1629869175841</updated>
       <workItem from="1629869177093" duration="14083000" />
-      <workItem from="1629956150378" duration="328000" />
-      <workItem from="1629956768532" duration="368000" />
+      <workItem from="1629956150378" duration="10595000" />
+      <workItem from="1629999284205" duration="611000" />
+      <workItem from="1630038834068" duration="4610000" />
+      <workItem from="1630239064358" duration="675000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
