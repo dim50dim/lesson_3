@@ -11,13 +11,17 @@ const staticPath = path.join(__dirname,'static');
 
 const { authRouter ,
     userRouter,
-    pingRouter } = require('./routers');
+    pingRouter,
+   healthRouter } = require('./routers');
 
 
-
+app.use('/ping',pingRouter);
 app.use('/user',userRouter);
 app.use('/auth',authRouter);
-app.use('/ping',pingRouter);
+app.use('/health',healthRouter);
+
+// app.use('/health',healthRouter);
+
 
 app.use(express.json());
 app.use(express.urlencoded({extended:true}));

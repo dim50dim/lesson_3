@@ -1,8 +1,9 @@
 const router = require('express').Router();
 const users = require('../dataBase/users.json');
 
-router.post('/users',(req,res) =>{ //make login process
+router.get('/',(req,res) =>{ //make login process
     const{email,password} = req.body;
+
 
 
     const user = users.find(user => user.email === email );
@@ -14,6 +15,8 @@ router.post('/users',(req,res) =>{ //make login process
         res.status(404).end('password is not correct , please check it once more');
     }
     res.json(users);
+
+
 });
 
 module.exports = router;
